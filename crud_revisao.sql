@@ -3,6 +3,7 @@ use crud_revisao;
 
 create table usuarios(
 id_usuario int not null auto_increment primary key,
+senha_usuario varchar(100) not null,
 nome_usuario varchar(100) not null,
 email_usuario varchar(100)
 );
